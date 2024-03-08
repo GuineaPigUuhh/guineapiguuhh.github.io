@@ -3,10 +3,11 @@ body {
     margin: 0;
     background-color: #0D1117;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    color: rgb(255, 255, 255);
+    align-items: center;
+    color: #fff;
     height: 100vh;
-    
 }
 
 a {
@@ -14,31 +15,26 @@ a {
 }
 
 .profileimage {
-    position: fixed;
-    bottom: 600;
-    width: 300;
+    width: 300px;
+    height: 300px;
     border: 5px solid #30363D;
     border-radius: 50%;
 }
 
 #aboutMe {
-    position: absolute;
     font-size: 35px;
-    color: #ffffff; 
-    margin: 20px;
-    bottom: 420;
-    padding: 5px 5px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 5px 10px;
     border: 2px solid #30363D;
     border-radius: 5px;
 }
 
 #socials {
-    position: absolute;
-    text-align: center;
-    bottom: 300;
     font-size: 25px;
-    color: #ffffff; 
-    padding: 5px 5px;
+    color: #ffffff;
+    margin-top: 20px;
+    padding: 5px 10px;
     border: 2px solid #30363D;
     border-radius: 5px;
 }
