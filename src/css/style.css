@@ -32,9 +32,9 @@ a {
 }
 
 #socials {
-    position: fixed;
+    position: absolute;
     text-align: center;
-    bottom: 200;
+    bottom: 300;
     font-size: 25px;
     color: #ffffff; 
     padding: 5px 5px;
